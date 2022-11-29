@@ -1,0 +1,15 @@
+.posts_greed_card {
+  @apply px-2 py-2 border break-words cursor-pointer hover:border-sky-600;
+}
+
+.check_container {
+  @apply flex justify-end;
+}
+
+.check_icon {
+  @apply h-6 w-6;
+}
+
+.load_more_container {
+  @apply mt-4 flex justify-center;
+}

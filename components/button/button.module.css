@@ -1,0 +1,3 @@
+.button {
+  @apply px-4 py-2 text-base whitespace-nowrap inline-flex items-center justify-center rounded-md shadow-sm text-white bg-sky-500 enabled:hover:bg-sky-600 font-medium disabled:opacity-60 disabled:cursor-not-allowed;
+}
