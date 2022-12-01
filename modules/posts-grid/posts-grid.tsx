@@ -18,7 +18,7 @@ const PostsGrid: FC = () => {
     [data, idsToSave],
   );
 
-  if (isFetched) {
+  if (!isFetched) {
     return <div className="center">Please, login to fetch tweets</div>;
   }
 
